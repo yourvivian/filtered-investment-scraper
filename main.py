@@ -110,7 +110,8 @@ def scrape_deals():
         '''
     print("Scraped deals:", relevant_deals)
     output_file = 'scraped_data.json'
-    with open(output_file, 'w') as json_file:
+    with open(output_file, 'a') as json_file: # append
+    #with open(output_file, 'w') as json_file: # overwrite
         #json_file.truncate(0)  # Clear the file before writing
         for deal in relevant_deals:
             json.dump({'scraped_deal': deal}, json_file)
