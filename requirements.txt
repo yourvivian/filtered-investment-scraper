@@ -1,0 +1,15 @@
+setuptools==57.5.0
+pip==22.1.0
+#heroku stack:set heroku-22
+fastjsonschema==2.16.2
+Flask==2.3.3
+jsonpointer==2.3
+jsonschema==4.17.3
+lxml==4.9.2
+pandas==1.5.3
+requests==2.28.2
+requests-file==1.5.1
+selenium==4.11.2
+uri-template==1.2.0
+gunicorn==21.2.0
+openpyxl==3.1.2
